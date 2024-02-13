@@ -43,7 +43,7 @@ function Regsiter() {
 
 
   return (
-    <div className="bg-[url('./../../public/bg.webp')] w-[100vw] h-[100vh] flex justify-center items-center ">
+    <div className="bg-[url('/bg.webp')] w-[100vw] h-[100vh] flex justify-center items-center ">
       <div className="w-full min-h-[100vh] bg-black absolute opacity-30">
       </div>
       <div className='w-[90%] sm:w-[600px] pl-0 ml-0 h-[400px] sm:pl-0 sm:ml-9 mt-10 relative'>

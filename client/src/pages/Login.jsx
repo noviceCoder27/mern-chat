@@ -43,7 +43,7 @@ function Login() {
   return (
     <>
 
-      <div className="w-full min-h-[100vh] flex justify-center items-center bg-[url('./../../public/bg.webp')] text-white">
+      <div className="w-full min-h-[100vh] flex justify-center items-center bg-[url('/bg.webp')] text-white">
       <div className="w-full min-h-[100vh] bg-black absolute opacity-30">
       </div>
         <div className='w-[90%] sm:w-[600px] pl-0 ml-0 h-[400px] sm:pl-0 sm:ml-9 mt-20 relative z-10'>
