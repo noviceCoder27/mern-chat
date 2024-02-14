@@ -124,11 +124,11 @@ function Chat(props) {
 
               </div>
             </div>
-            <div className='absolute left-[31%] bottom-[3%] bg-[#5c4f81] rounded-[10px]'>
+            <div className='absolute w-full bottom-[1rem] mt-2 bg-[#5c4f81] rounded-[10px]'>
               {
                 showPicker && <Picker data={data} onEmojiSelect={(e) => setMessage(message + e.native)} />
               }
-              <div className='border-[1px] border-[#4d426d] px-6 py-3 w-[360px] sm:w-[400px] md:w-[350px] h-[50px] lg:w-[400px] rounded-t-[10px]'>
+              <div className='border-[1px] border-[#4d426d] px-6 py-3 h-[50px] rounded-t-[10px]'>
 
                 <form onKeyDown={(e) => keyDownFunction(e)} onSubmit={(e) => e.preventDefault()}>
                   <input onChange={(e) => {
@@ -153,7 +153,7 @@ function Chat(props) {
 
               </div>
 
-              <div className='border-x-[1px] border-b-[1px] bg-[#5c4f81] border-[#4d426d] px-6 py-3 w-[360px] sm:w-[400px] md:w-[350px] lg:w-[400px] rounded-b-[10px] h-[50px] '>
+              <div className='border-x-[1px] border-b-[1px] border-[#4d426d] px-6 py-3 rounded-b-[10px] h-[50px] '>
                 <div className='flex items-start justify-between'>
                   <div className='cursor-pointer' onClick={() => setShowPicker(!showPicker)}>
                     {showPicker ? <BsFillEmojiSmileFill className='w-[20px] h-[20px] text-[#ffb02e] border-[black]' /> : <BsEmojiSmile className='w-[20px] h-[20px] text-white' />}
